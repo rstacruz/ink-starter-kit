@@ -2,5 +2,18 @@
   "name": "passtime",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^0.5.1"
+  },
+  "scripts": {
+    "dev": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "eslint": "^5.7.0",
+    "prettier": "^1.14.3"
+  }
 }
