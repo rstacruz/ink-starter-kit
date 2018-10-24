@@ -9,7 +9,10 @@
   "scripts": {
     "dev": "babel-node src/index.js",
     "build": "babel src -d lib",
-    "watch": "babel src -d lib --watch"
+    "watch": "babel src -d lib --watch --verbose"
+  },
+  "bin": {
+    "myapp": "bin/myapp"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
